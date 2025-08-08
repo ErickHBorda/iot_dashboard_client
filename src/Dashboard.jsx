@@ -50,7 +50,7 @@ export default function Dashboard() {
       connectTimeout: 4000,
     };
 
-    const mqttClient = mqtt.connect("ws://broker.hivemq.com:8000/mqtt", options);
+    const mqttClient = mqtt.connect("wss://broker.hivemq.com:8884/mqtt", options);
     setClient(mqttClient);
 
     mqttClient.on("connect", () => {
