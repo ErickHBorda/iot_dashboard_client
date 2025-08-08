@@ -1,12 +1,69 @@
-# React + Vite
+# 🌐 IoT Dashboard - MQTT Monitor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un **dashboard web** que permite visualizar datos enviados desde un **ESP32** a través de **MQTT** en tiempo real.  
+La aplicación se conecta al broker MQTT y muestra la información recibida en gráficos y tarjetas de forma visual y sencilla.
 
-Currently, two official plugins are available:
+## 📸 Vista previa
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="1869" height="1043" alt="image" src="https://github.com/user-attachments/assets/2bf87ed0-76ed-4c45-be68-9f5509012f65" />
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Características
+
+- Conexión en tiempo real a un **broker MQTT**.
+- Visualización de datos de sensores en **gráficos interactivos**.
+- Suscripción a topics personalizados.
+- Interfaz intuitiva y adaptable (Responsive).
+- Actualización dinámica sin recargar la página.
+
+---
+
+## 🛠 Tecnologías utilizadas
+
+- **React.js** (con Vite)
+- **MQTT.js** para la conexión al broker
+- **Chart.js** / **Recharts** para gráficos
+- **Tailwind CSS** (para estilos)
+
+---
+
+## 📦 Instalación
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/ErickHBorda/iot_dashboard_client.git
+````
+
+2. Accede al directorio:
+
+```bash
+cd iot_dashboard_client
+```
+
+3. Instala las dependencias:
+
+```bash
+npm install
+```
+
+5. Inicia el proyecto:
+
+```bash
+npm run dev
+```
+
+## 📄 Licencia
+
+Este proyecto se distribuye bajo la licencia **MIT**.
+Siéntete libre de usarlo y adaptarlo a tus necesidades.
+
+---
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas.
+Puedes mejorar la interfaz, agregar más tipos de gráficos o integrar nuevos sensores.
+
+---
