@@ -10,6 +10,9 @@ export default function App() {
   return (
     <Router>
       <Routes>
+        {/* Ruta raíz → redirige a /login */}
+        <Route path="/" element={<Navigate to="/login" replace />} />
+        
         {/* Ruta de login */}
         <Route
           path="/login"
